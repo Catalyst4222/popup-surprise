@@ -1,0 +1,13 @@
+{
+    "video": {
+        "path": "videos/foxy.webm",
+        "mimeType": "video/webm",
+        "closeOnEnd": true
+    },
+    "image": {
+        "path": "images/plinko.gif",
+        "mimeType": "image/gif",
+        "delay": 25
+    },
+    "type": "video"
+}
