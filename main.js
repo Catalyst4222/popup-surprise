@@ -42,11 +42,7 @@ app.whenReady().then(() => {
   ipcMain.handle("quit", () => app.quit())
 
   // Grab config
-  ipcMain.handle("getConfig", () => fs.readFileSync("config.json").toString())
-
-
-
-
+  ipcMain.handle("getConfig", () => fs.readFileSync(path.join(__dirname, 'config.json')).toString())
 
 
   app.on('activate', function () {
