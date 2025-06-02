@@ -1,21 +1,13 @@
 {
-  "name": "electron-quick-start",
+  "name": "popup-surprise",
   "version": "1.0.0",
   "description": "A minimal Electron application",
   "main": "main.js",
   "scripts": {
     "start": "electron ."
   },
-  "repository": "https://github.com/electron/electron-quick-start",
-  "keywords": [
-    "Electron",
-    "quick",
-    "start",
-    "tutorial",
-    "demo"
-  ],
-  "author": "GitHub",
-  "license": "CC0-1.0",
+  "repository": "https://github.com/Catalyst4222/popup-surprise",
+  "author": "Catalyst4222",
   "devDependencies": {
     "electron": "^36.3.1"
   }
